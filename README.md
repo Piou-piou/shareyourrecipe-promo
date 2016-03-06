@@ -1,4 +1,4 @@
-##Share Your Recipe sit promotionnel
+#Share Your Recipe site promotionnel
 
 Share Your Recipe est un projet étudiant réalisé pendant mon DUT SRC, dans ce projet j'ai été chargé d'intégrer la maquette photoshop
 
