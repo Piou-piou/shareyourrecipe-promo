@@ -1,0 +1,923 @@
+
+body {
+	background-image:url(image-interface/fond.jpg);
+	background-repeat:repeat;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	height: 100%;
+	text-decoration:none;
+}
+
+a {
+	text-decoration:none;	
+}
+
+.clear {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.inner {
+	width: 960px;
+	margin: 0 auto;
+}
+
+@font-face {
+    font-family:''Passion One', cursive;';
+    src:url('../police/'Passion One', cursive;.ttf');
+	font-weight:50;
+}
+
+.content {
+	z-index:99;
+}
+
+/*MENU*/
+header {
+	background-image:url(image-interface/menu.png);
+	background-repeat:repeat-x;
+	height:151px;
+	position: fixed;
+	width:100%;
+	z-index:1;
+}
+
+header > .inner {
+	width: 960px;
+	margin: 0 auto;
+} 
+
+nav {
+    display: block;
+	float: left;
+	margin:30px 0px 0px 80px;
+}
+
+nav li{
+	float:left;
+	list-style:none;
+	height:35px;
+	width: 140px;
+	
+}
+
+/*SPRITE NAV*/
+.txtconcept {
+	-webkit-transition: background-position 0.5s ease-out; /*temps transision*/
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background:url(image-interface/concept.png) no-repeat center;
+	background-position:0px 0px;
+	display:block;
+	height:77px;
+	width: 120px;
+	position : absolute;
+	top:0px;
+	overflow:hidden;
+}
+
+.txtconcepta {
+	-webkit-transition: background-position 0.5s ease-out;
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background-position : 0px -60px;
+}
+
+.txtconcept:hover {
+	-webkit-transition: background-position 0.5s ease-out;
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background-position : 0px -60px;
+}
+
+.txtnous {
+	-webkit-transition: background-position 0.5s ease-out; /*temps transision*/
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background:url(image-interface/nous.png) no-repeat center;
+	background-position:0px 0px;
+	display:block;
+	height:77px;
+	width: 140px;
+	position : absolute;
+	top:0px;
+	overflow:hidden;
+}
+
+.txtnous:hover {
+	-webkit-transition: background-position 0.5s ease-out;
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background-position : 0px -60px;
+}
+
+.plus {
+	margin-left:25px;
+}
+.FAQ {
+	margin-left:-30px;
+}
+.txtplus {
+	-webkit-transition: background-position 0.5s ease-out; /*temps transision*/
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background:url(image-interface/plus.png) no-repeat center;
+	background-position:0px 0px;
+	display:block;
+	height:77px;
+	width: 120px;
+	position : absolute;
+	top:0px;
+	overflow:hidden;
+}
+
+.txtplus:hover {
+	-webkit-transition: background-position 0.5s ease-out;
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background-position : 0px -60px;
+
+}
+
+.txtFAQ {
+	-webkit-transition: background-position 0.5s ease-out; /*temps transision*/
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background:url(image-interface/faq.png) no-repeat center;
+	background-position:0px 0px;
+	display:block;
+	height:77px;
+	width: 120px;
+	position : absolute;
+	top:0px;
+	overflow:hidden;
+}
+
+.txtFAQ:hover {
+	-webkit-transition: background-position 0.5s ease-out;
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background-position : 0px -60px;
+}
+
+/*jquery qui garde avec le logo quand on click*/
+.txtchange{
+	-webkit-transition: background-position 0.5s ease-out;
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;
+	background-position : 0px -60px;
+}
+
+
+
+/*RESEAU SOCIAUX*/
+.ustensil {
+    display: block;
+	float: left;
+	margin:30px 0px 0px 80px;
+}
+
+.ustensil li{
+	float:left;
+	list-style:none;
+	height:164px;
+	width: 40px;
+	
+}
+.imgfacebook {
+	-webkit-transition: background-position 0s ease-out; /*temps transision*/
+	-moz-transition: background-position 0s ease-out;
+	-o-transition: background-position 0s ease-out;
+	transition: background-position 0s ease-out;
+	background:url(image-interface/facebook.png) no-repeat center;
+	background-position:0px 0px;
+	display:block;
+	height:187px;
+	width: 71px;
+	position : absolute;
+	top:0px;
+	overflow:hidden;
+	margin-top:11px;
+	margin-left:-13px;
+}
+
+.imgfacebook:hover {
+	-webkit-transition: background-position 0s ease-out;
+	-moz-transition: background-position 0s ease-out;
+	-o-transition: background-position 0s ease-out;
+	transition: background-position 0s ease-out;
+	background-position : 0px -187px;
+	margin-top:11px;
+	margin-left:-13px;
+}
+
+.imggoogle{
+	-webkit-transition: background-position 0s ease-out; /*temps transision*/
+	-moz-transition: background-position 0s ease-out;
+	-o-transition: background-position 0s ease-out;
+	transition: background-position 0s ease-out;
+	background: url(image-interface/google+.png) no-repeat center;
+	background-position:0px 0px;
+	display:block;
+	height:187px;
+	width: 60px;
+	position : absolute;
+	top:0px;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.imggoogle:hover {
+	-webkit-transition: background-position 0s ease-out;
+	-moz-transition: background-position 0s ease-out;
+	-o-transition: background-position 0s ease-out;
+	transition: background-position 0s ease-out;
+	background-position : 0px -187px;
+	margin-top:10px;
+}
+
+/*HGROUPE*/
+h1 {
+	font-family: 'Passion One', cursive;
+	color: #523f36; /*marron*/
+	font-weight:50;
+	font-size:25px;
+}
+hgroup img {
+	margin-left:40px;
+}
+
+hgroup {
+	margin:3px 0px 0px 10px;
+	float:left;
+}
+
+#your{
+	color:#FFF;
+}
+
+/*USTENSIL*/
+.ustensil {
+	float:right;
+	margin:25px 10px 0px 0px;
+}
+
+.ustensil img:first-child {
+	margin-right:-5px;
+}
+
+
+/*CERCLE MARRON*/
+.permiercercle {
+	margin-top:150px;
+	float: right;
+	width:850px;
+	height:700px;
+}
+
+.marron {
+	background-image:url(image-interface/marron.png);
+	background-repeat:repeat;
+	height:700px;
+	width:700px;
+	float:right;
+	padding-top:150px;
+	
+	/*ROND*/
+  	border: 10px solid rgba(255, 255, 255, 0.3);/*couleur bordure du rond et le 0.2 c'est pour le transparence + pres de 0 = +ivisible*/
+	padding:5px;
+   	overflow: hidden;
+   	position: relative;
+   	text-align: center;
+   	-webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   	-moz-box-shadow: 1px 1px 2px #e6e6e6;
+   	box-shadow: 1px 1px 2px #e6e6e6;
+   	cursor: default;
+	-webkit-border-radius: 600px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 600px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 600px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/ 
+	
+}
+
+.marron h2 {
+	background-image:url(image-interface/logoConcept.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:145px;
+	font-family: 'Passion One', cursive; ;
+	font-weight:50;
+	font-size:40px;
+	color:#FFF;
+	line-height:45px;
+	padding:60px 0px 0px 200px;
+	margin-right:180px;
+	margin-top:-20px;
+}
+
+
+.marron .parttitre2 {
+	font-size:72px;
+	color: #a7d61d; /*vert*/
+	text-transform:uppercase;
+}
+
+.marron .texte {
+	width:375px;
+	color:#FFF;
+	margin-left:160px;
+}
+
+.marron .texte p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	margin-top:15px;
+	text-align:left;
+	line-height:20px;
+}
+
+.marron .texte p:first-child {
+	font-size:24px;
+	line-height:25px;
+}
+
+.marron .texte span {
+	color: #f0f8da; /*blanc-vert*/
+	font-weight:bold;
+	font-size:18px;
+}
+
+.marron .texte p:first-child span {
+	font-size:26px;
+}
+
+
+/*VERT NEWSLETTER*/
+.vertnewsletter {
+	
+	background-image: url(image-interface/vert.jpg);
+	background-repeat:repeat;
+	height:220px;
+	width:220px;
+	float:left;
+	margin-top:-300px;
+
+	/*ROND*/
+  	border: 5px solid rgba(255, 255, 255, 0.3);/*couleur bordure du rond et le 0.2 c'est pour le transparence + pres de 0 = +ivisible*/
+	padding:5px;
+   	overflow: hidden;
+   	position: relative;
+   	text-align: center;
+   	-webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   	-moz-box-shadow: 1px 1px 2px #e6e6e6;
+   	box-shadow: 1px 1px 2px #e6e6e6;
+   	cursor: default;
+	-webkit-border-radius: 120px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 120px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 120px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/ 
+	cursor:pointer;
+	
+}
+
+.vertnewsletter p {
+	font-family: 'Passion One', cursive;
+	font-weight:50;
+	font-size:18px;
+	margin: 75px 0px 0px 15px;
+	color: #523f36; /*marron*/
+	text-align:left;
+	line-height:30px;
+}
+
+.vertnewsletter p span {
+	color:#FFF;
+	font-size:48px;
+}
+
+
+
+/*DEUXIEMECLERCLE*/
+
+.deuxiemecercle {
+	margin-top:250px;
+	float: left;
+	width:700px;
+	height:630px;
+	
+}
+
+.vert {
+	background-image:url(image-interface/verttransp.png);
+	background-repeat:repeat;
+	height:630px;
+	width:630px;
+	float: left;
+	
+	/*ROND*/
+  	border: 8px solid rgba(255, 255, 255, 0.3);/*couleur bordure du rond et le 0.2 c'est pour le transparence + pres de 0 = +ivisible*/
+	padding:5px;
+   	overflow: hidden;
+   	position: relative;
+   	text-align: center;
+   	-webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   	-moz-box-shadow: 1px 1px 2px #e6e6e6;
+   	box-shadow: 1px 1px 2px #e6e6e6;
+   	cursor: default;
+	-webkit-border-radius: 530px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 530px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 530px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	position:absolute;
+	
+}
+
+.vert .texte {
+	width:300px;
+	color: #523f36; /*marron*/
+	margin-left:160px;
+}
+
+.vert .texte p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	margin-top:15px;
+	text-align:left;
+	line-height:20px;
+}
+
+.vert .texte p:first-child {
+	font-size:24px;
+	line-height:25px;
+}
+
+.vert .texte span {
+	color:#6c584e; /*marron clair*/
+	font-weight:bold;
+	font-size:18px;
+}
+
+.vert .texte p:first-child span {
+	font-size:26px;
+}
+
+.vert h2 {
+	background-image:url(image-interface/logoNous.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:145px;
+	font-family: 'Passion One', cursive;
+	font-weight:50;
+	font-size:40px;
+	color: #523f36; /*marron*/
+	line-height:45px;	
+	padding:60px 0px 0px 180px;
+	margin-right:180px;
+}
+
+
+.vert .parttitre2 {
+	font-size:72px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+
+/*IMAGE TIRAMISU*/
+.tiramisu img{
+	float:right;
+	margin-top:150px;
+	position:relative;
+}
+
+
+
+/*TROISIEMECERCLE*/
+
+.troisiemecercle {
+	padding-top:250px;
+	float: left;
+	width:700px;
+	height:700px;
+}
+
+
+.jaune {
+	background-image:url(image-interface/jaune.png);
+	background-repeat:repeat;
+	height:700px;
+	width:700px;
+	float: left;
+	margin-left:90px;
+	
+	/*ROND*/
+  	border: 8px solid rgba(255, 255, 255, 0.3);/*couleur bordure du rond et le 0.2 c'est pour le transparence + pres de 0 = +ivisible*/
+	padding:5px;
+   	overflow: hidden;
+   	position: relative;
+   	text-align: center;
+   	-webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   	-moz-box-shadow: 1px 1px 2px #e6e6e6;
+   	box-shadow: 1px 1px 2px #e6e6e6;
+   	cursor: default;
+	-webkit-border-radius: 600px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 600px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 600px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	position:absolute;
+	
+}
+
+.jaune .texte {
+	width:380px;
+	color: #523f36; /*marron*/
+	margin-left:160px;
+}
+
+.jaune .texte p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	margin-top:15px;
+	text-align:left;
+	line-height:20px;
+}
+
+.jaune .texte span {
+	color:#6c584e; /*marron clair*/
+	font-weight:bold;
+	font-size:18px;
+}
+
+.jaune h2 {
+	background-image:url(image-interface/logoPlus.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:150px;
+	width:265px;
+	font-family: 'Passion One', cursive;
+	font-weight:50;
+	font-size:40px;
+	color: #523f36; /*marron*/
+	line-height:45px;
+	margin-left:150px;
+	margin-top:-10px;
+	padding:60px 50px 0px 70px;
+}
+
+
+.jaune .parttitre2 {
+	font-size:72px;
+	color:#ce6d2d ; /*orange*/
+	text-transform:uppercase;
+}
+
+
+
+
+/*SLIDER*/
+
+#slider > div {
+	width:230px;
+	height:150px;
+	padding:10px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+.slider {
+	width:230px;
+	position:relative;
+	-webkit-perspective: 600;
+	-webkit-perspective-origin: 50% 50%;
+	-moz-transform: perspective(600px);
+	-moz-perspective-origin: 50% 50%;
+	-moz-transform-style: preserve-3d;
+	perspective: 600px;
+	perspective-origin: 50% 50%;
+}
+
+.slider .courant {
+	-moz-transform: scale(1);
+	-moz-transform: translateX(0px);
+	-webkit-transform: scale(1);
+	-webkit-transform: translateX(0px);
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+.slider .cache {
+	margin-top: 350px;
+	-moz-transform: scale(5);
+	-webkit-transform: scale(5);
+	opacity: 0;
+}
+
+#navigationslider {
+	margin-left:140px;
+	margin-top:30px;
+	margin-bottom:40px;
+	
+}
+
+#navigationslider li {
+	margin-left:20px;
+	list-style: none;
+	padding:5px;
+	float:left;
+	height:57px;
+	width:57px;
+	background-color: #523f36; /*marron*/
+	padding:5px;
+   	overflow: hidden;
+   	position: relative;
+   	text-align: center;
+   	cursor: default;
+	-webkit-border-radius: 157px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 157px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 157px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+}
+
+#navigationslider li:hover {
+	background-color: #ce6d2d ; /*orange*/
+}
+
+/*li actif et cliquer en jquery*/
+#navigationslider li.click {
+	background-color: #ce6d2d ; /*orange*/
+}
+
+
+#slider p {
+	width:220px;
+	color: #523f36; /*marron*/
+	margin-top:10px;
+	line-height:17px;
+	text-align:left;
+}
+
+.troisiemecercle h3 {
+	font-size:30px;
+	color:#ce6d2d ; /*orange*/
+	margin-bottom:10px;
+	margin-top:30px;
+}
+
+#slider {
+	margin:0px 0px 0px 230px;
+}
+
+
+
+
+
+/*QUATIEMECLERCLE*/
+
+.quatriemecercle {
+	margin-top:200px;
+	float: right;
+	width:780px;
+	height:780px;
+	margin-bottom:150px;
+
+	
+}
+
+.vertFAQ {
+	background-image:url(image-interface/verttransp.png);
+	background-repeat:repeat;
+	height:780px;
+	width:780px;
+	float: right;
+	
+	/*ROND*/
+  	border: 8px solid rgba(255, 255, 255, 0.3);/*couleur bordure du rond et le 0.2 c'est pour le transparence + pres de 0 = +ivisible*/
+	padding:5px;
+   	overflow: hidden;
+   	position: relative;
+   	text-align: center;
+   	-webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   	-moz-box-shadow: 1px 1px 2px #e6e6e6;
+   	box-shadow: 1px 1px 2px #e6e6e6;
+   	cursor: default;
+	-webkit-border-radius: 680px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 680px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 680px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	position:absolute;
+	
+}
+
+.vertFAQ .texte {
+	width:460px;
+	color: #523f36; /*marron*/
+	margin-left:160px;
+}
+
+.vertFAQ .texte p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:left;
+	line-height:20px;
+}
+
+.vertFAQ h3 {
+	color:#FFF;
+	font-size:16px;
+	margin:15px 0px 20px 0px;
+	text-align:left;
+}
+
+.vertFAQ h2 {
+	background-image:url(image-interface/logoFAQ.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:150px;
+	width:375px;
+	font-family: 'Passion One', cursive;
+	font-weight:50;
+	font-size:40px;
+	color: #523f36; /*marron*/
+	line-height:25px;
+	margin-left:-30px;
+	margin-top:0px;
+	padding:60px 50px 0px 70px;
+	
+}
+
+.vertFAQ .parttitre2 {
+	font-size:72px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+
+
+.vertFAQ .texte .gauche {
+	float:left;
+	width:220px;
+	margin-top:50px;
+}
+
+.vertFAQ .texte .droite {
+	float: right;
+	width:220px;
+}
+
+/*IMAGE TACOS*/
+.tacos img{
+	float:right;
+	margin-top:550px;
+	margin-right:30px;
+	position:relative;
+}
+
+
+.pates {
+	margin-left:200px;
+	margin-bottom:-1px;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background-image:url(image-interface/fondFooter.jpg);
+	background-repeat:repeat;
+	height:205px;
+	box-shadow: 1px 1px 40px #555;
+}
+
+footer p {
+	font-size:12px;
+}
+
+h4 {
+	font-family: 'Passion One', cursive;
+	font-weight:50;
+	font-size:20px;
+	color:#FFF;
+	border-bottom:solid 1px #FFF;
+	padding-bottom:5px;
+	font-weight:100;
+}
+
+/*CONTACT*/
+
+
+.contact {
+	width:300px;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+
+footer .contact img {
+	float:left;
+	position:relative;
+	padding-right:10px;
+
+}
+
+footer .contact p {
+	float:left;
+	position:relative;
+	width:215px;
+	color: #a7d61d; /*vert*/
+}
+
+h5 {
+	font-family: 'Passion One', cursive;
+	font-weight:50;
+	font-size:14px;
+	color:#FFF;
+	padding:5px 0px 5px 0px;
+	font-weight:100;
+	
+}	
+
+
+/*FOOTERCENTRE*/
+footer .footercentre {
+	width:300px;
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+}
+
+footer .footercentre p {
+	color:#FFF;
+	line-height:17px;
+}
+
+footer .footercentre h4 {
+	margin-bottom:3px;
+}
+
+footer .footerdroite .newsletter{
+	margin-top:30px;
+	color:#FFF;
+	
+}
+
+footer .newsletter span{
+	font-family: 'Passion One', cursive;
+	font-weight:50;
+	font-size:30px;
+	line-height:30px;
+}
+
+footer .mentionlegal {
+	margin-top:30px;
+}
+
+footer .mentionlegal a {
+	color: #a7d61d; /*vert*/
+}
+
+/*FOOTERDROITE*/
+footer .footerdroite {
+	width:300px;
+	float: right;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+footer .footerdroite h4{
+	margin-bottom:15px;
+}
+
+.reseauxsociaux img {
+	margin-right:15px;
+}
+
+
+footer .titre {
+	margin-top:60px;
+}
+footer .titre p{
+	font-family: 'Passion One', cursive; ;
+	font-size:20px;
+	font-weight:50;
+	color:#FFF;
+	text-align:right;
+}
+
+footer .titre p:first-child{
+	font-family: 'Passion One', cursive; ;
+	font-size:25px;
+	font-weight:50;
+	color: #a7d61d; /*vert*/
+}
+
+
+	

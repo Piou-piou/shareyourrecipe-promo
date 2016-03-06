@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*PARRALAX*/
+
+
+
+/*PATES*/
+#pates1erplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/pates/1erplan.png);
+    background-repeat: no-repeat;
+}
+
+#pates2emeplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/pates/2emeplan.png);
+    background-repeat: no-repeat;
+}
+
+#pates3emeplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/pates/3emeplan.png);
+    background-repeat: no-repeat;
+}
+
+
+<!--EAU-->
+#eau1erplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/eau/eau1erplan.png);
+    background-repeat: no-repeat;
+}
+
+#eau2emeplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/eau/eau2emeplan.png);
+    background-repeat: no-repeat;
+}
+
+#eau3emeplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/eau/eau3emeplan.png);
+    background-repeat: no-repeat;
+}
+
+/*OEUF*/
+#oeuf1erplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/oeuf/oeuf1erplan.png);
+    background-repeat: no-repeat;
+}
+
+#oeuf2emeplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/oeuf/oeuf2emeplan.png);
+    background-repeat: no-repeat;
+}
+
+/*LARDONS*/
+#lardons1erplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/lardons.png);
+    background-repeat: no-repeat;
+}
+
+/*SEL*/
+#sel1erplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/sel/sel1erplan.png);
+    background-repeat: no-repeat;
+}
+
+#sel2emeplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/sel/sel2emeplan.png);
+    background-repeat: no-repeat;
+}
+
+#sel3emeplan {
+    background-attachment: fixed;
+    background-image: url(image-interface/parallax/sel/sel3emeplan.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

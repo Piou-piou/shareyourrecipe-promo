@@ -1,0 +1,158 @@
+@font-face {
+    font-family:''Passion One', cursive;';
+    src:url('../police/'Passion One', cursive;.ttf');
+	font-weight:50;
+}
+
+.modal-box.wrapper {
+	position: fixed;
+	margin: 25% auto;
+	float: none;
+	border: 1px solid #d4d4d4;
+	border-radius:30px;
+	border: 6px solid rgba(255, 255, 255, 0.3);/*couleur bordure du rond et le 0.2 c'est pour le transparence + pres de 0 = +ivisible*/
+	-webkit-border-radius: 25px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 25px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 25px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/ 
+	
+	z-index: 2000;
+	text-align: left;
+	top: -15%;
+	left: 30%;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color: #523f36; /*marron*/
+	width:500px;
+	
+}
+
+
+.modal-box wrapper h3 {
+	font-family: 'Passion One', cursive;
+	color: #523f36; /*marron*/
+	font-weight:50;
+	font-size:25px;
+}
+
+.modal-box .inside {
+	border-radius:30px;
+	-webkit-border-radius: 20px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	-moz-border-radius: 20px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	border-radius: 20px; /*Pour faire le rond doit etres 100px inferieur a la hauteur et a la largeur*/
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:10px;
+	padding-right:10px;
+	overflow: visible;
+	z-index: 2000;
+}
+
+.modal-box .text {
+	width: 185px;
+}
+
+#mailing-list.modal-box {
+	width: 650px;
+}
+
+.modal-box .hr {
+	height: 5px;
+	background: url(image-interface/images/hr.png) repeat-x;
+}
+
+#adjust-settings span.button.white.save {
+	margin-left: 95px;
+}
+
+
+.modal-box .inside.blue {
+	background-image:url(image-interface/fond.jpg);
+	background-repeat:repeat;
+}
+
+
+/* Close Buttons */
+.modal-box span.modal-close {
+	position: absolute;
+	top: -13px;
+	right: -13px;
+	width: 35px;
+	height: 35px;
+	background: url(image-interface/close-buttons-sprite.png) no-repeat;
+}
+
+.modal-box span.modal-close:hover {
+	background-position: 0 -37px;
+	cursor: pointer;
+}
+
+.modal-box span.modal-close span {
+	display: none;
+}
+
+.modal-box span.modal-close.black{
+	background-position: -35px 0;
+}
+
+.modal-box h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px 0px 5px;
+	letter-spacing: -1px;
+}
+
+.modal-box .red h3, .modal-box .yellow h3 {
+	color: #fffeff;
+	margin-top: 0px;
+}
+
+#restricted-content.modal-box h3 {
+	margin-top: 90px;
+}
+
+.modal-box p {
+	text-shadow: rgba(255,254,255,0.5) 0 1px 0;
+	margin: 5px 0px 10px;
+}
+
+.modal-box div.clear {
+	height: 1px;
+	clear: both;
+}
+.modal-box.centered {
+	text-align: center;
+}
+
+/* Image Styles */
+.modal-box img {
+	float: left;
+	margin-right: 20px;
+}
+
+.modal-box img.right {
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+
+.modal-box.centered img {
+	float: none;
+}
+
+.modal-box img.pop-out {
+	margin-top: -42px;
+	z-index: 2001;
+	position: absolute;
+	left: 94px;
+}
+
+#cache {
+	background-color: rgba(5, 10, 15, 0.8);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 99;
+}
+
